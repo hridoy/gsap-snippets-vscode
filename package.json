@@ -1,0 +1,38 @@
+{
+    "name": "gsap-snippets",
+    "displayName": "GSAP snippets",
+    "description": "GreenSock Animation Platform snippets for development",
+    "version": "1.0.0",
+    "publisher": "Hridoy",
+    "icon": "img/icon.png",
+    "galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+    },
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hridoy/gsap-snippets-vscode"
+    },
+    "keywords": [
+        "GSAP",
+        "gsap Snippets",
+        "tween max",
+        "animation",
+        "GreenSock Animation"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "'javascript;",
+                "path": "./snippets/default.json"
+            }
+        ]
+    }
+}
